@@ -1,0 +1,25 @@
+
+.perfil{
+    background-color: #43ab92;
+    padding: 40px 50px;
+
+    &__titulo{
+        font-size: 180px;
+        color: $color-secundario;
+        
+        @media #{$media-celular}{
+            font-size: 20px;
+        }
+  
+    }
+
+    &__parrafo{
+        font-size: 40px;
+        color: $color-secundario;
+
+        @media #{$media-celular}{
+            font-size: 10px;
+        }
+    }
+
+}

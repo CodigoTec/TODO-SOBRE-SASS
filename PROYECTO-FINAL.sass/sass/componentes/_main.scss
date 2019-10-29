@@ -1,0 +1,33 @@
+.seccion-uno {
+    @include posicion;
+    .seccion-uno__parrafo {
+        @include parrafo;
+    }
+    .seccion-uno__imagen {
+        @include imagen;
+    }  
+}
+
+
+
+.seccion-dos {
+    @include posicion;
+    .seccion-dos__parrafo {
+        @include parrafo;
+    }
+    .seccion-dos__imagen {
+        @include imagen;
+    }  
+}
+
+.seccion-tres {
+    @include posicion;
+    .seccion-tres__parrafo {
+        @include parrafo;
+    }
+
+    .seccion-tres__imagen {
+        @include imagen;
+    }  
+}
+

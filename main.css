@@ -1,0 +1,104 @@
+/*reseteando*/
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  
+  /* menú hamburguesa */
+  .main-hamburger {
+    height: 22px;
+    width: 22px;
+  }
+  
+  /* fin de menú hamburguesa */
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #adaeaf;
+    color: #ffffff;
+    padding: 20px 5px;
+  }
+  header a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+  }
+  header .logo{
+    margin: auto 10px;
+    font-size: 22px;
+  }
+  header .menu{
+    display: none;
+  }
+  header .menu-Desktop{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+  }
+  
+  header .menu-Desktop li {
+    margin: 0px 20px;
+  }
+  
+  
+  header:before{
+    content: "";
+    width: 100%;
+    height: 90vh;
+    opacity: 0.6;
+    position: absolute;
+    background-color: black;
+  
+  }
+  
+  header{
+    background-image:url("../assets/images/header.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+  }
+  
+  header .titulo{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header .titulo h1{
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+    line-height: 70px;
+    position: relative;
+  }
+  
+  header .titulo span{
+    font-size: 50px;
+  }
+  
+  @media only screen and (max-device-width : 750px) {
+    header .menu{
+      display: block;
+      margin: 10px 10px;
+    }
+    header .menu-Desktop{
+      display: none;
+    }
+    header .logo{
+      margin: 10px 10px;
+    }
+  
+    header .titulo h1{
+      font-size: 50px;
+    }
+    
+    header .titulo span{
+      font-size: 20px;
+    }
+    
+  }

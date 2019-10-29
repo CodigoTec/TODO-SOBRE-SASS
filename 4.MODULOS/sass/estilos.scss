@@ -1,0 +1,11 @@
+/*Importando Variables*/
+@import "./lib/variables";
+@import "./lib/media-queries";
+
+/*Importando base*/
+@import "./base/grillas";
+
+/*Importando Componentes*/
+@import "./componentes/header";
+@import "./componentes/section";
+@import "./componentes/footer";

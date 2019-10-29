@@ -1,0 +1,43 @@
+//Colocar un alto y ancho establecido header,section,footer
+//color de fondo del header y footer sea el mismo
+//El tamaño de fuente tambien el mismo
+//Los parrafos de section y footer deben tener un  font-family: cursive;
+//Los h2 de footer y header deben tener el mismo color de letra;
+
+$ancho: 100%;
+$alto: 500px;
+$color-fondo:#ff78ae;
+$color-letra:#3e64ff;
+$fuente: 30px;
+$tipo-letra:cursive;
+
+header {
+    width: $ancho;
+    height: $alto;
+    background-color: $color-fondo;
+    font-size: $fuente;
+    h2{
+        color: $color-letra;
+    }
+}
+
+section {
+    width: $ancho;
+    height: $alto;
+    p{
+     font-display: $tipo-letra;
+    }
+}
+
+footer {
+    width: $ancho;
+    height: $alto;
+    background-color: $color-fondo;
+    font-size: $fuente;
+    p{
+        font-display: $tipo-letra;
+    }
+    h2{
+        color: $color-letra;
+    }
+}

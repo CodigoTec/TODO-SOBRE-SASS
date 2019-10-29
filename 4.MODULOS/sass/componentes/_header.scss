@@ -1,0 +1,23 @@
+.header{
+   background-color: $color-primario;
+   font-family: $tipo-letra;
+   font-size: 20px;
+   display: flex;
+   justify-content: space-around; 
+  
+   &__logo{
+     margin: $menu-margin;
+   }
+   &__menu{
+       list-style: none;
+       display: flex;
+       li{
+         margin: $menu-margin;
+       }
+   }
+
+   a{
+    color:$color-secundario;
+   }
+   
+}

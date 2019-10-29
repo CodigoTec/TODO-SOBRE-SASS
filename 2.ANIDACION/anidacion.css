@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #f6ad7b;
+}
+
+header .logo {
+  margin: 10px 20px;
+}
+
+header .logo img {
+  width: 100px;
+  height: 80px;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  margin: auto 30px;
+}
+
+header .link {
+  text-decoration: none;
+  color: #f2eee5;
+  font-size: 20px;
+}

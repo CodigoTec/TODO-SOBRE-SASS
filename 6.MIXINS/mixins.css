@@ -1,0 +1,53 @@
+* {
+  margin: 0; }
+
+/* @mixin logo {
+  
+   }
+*/
+/* .lenguajes__html{
+       @include log;
+    }
+*/
+.lenguajes__titulo {
+  background-color: #52386d;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 0px; }
+
+.lenguajes__logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.lenguajes__html {
+  background-color: red;
+  text-align: center;
+  font-size: 40px;
+  padding: 40px;
+  color: #ffffff; }
+  .lenguajes__html img {
+    width: 150px;
+    height: 150px; }
+
+.lenguajes__css {
+  background-color: green;
+  text-align: center;
+  font-size: 30px;
+  padding: 40px;
+  color: #ffffff; }
+  .lenguajes__css img {
+    width: 150px;
+    height: 150px; }
+
+.lenguajes__js {
+  background-color: blue;
+  text-align: center;
+  font-size: 10px;
+  padding: 40px;
+  color: #ffffff; }
+  .lenguajes__js img {
+    width: 150px;
+    height: 150px; }

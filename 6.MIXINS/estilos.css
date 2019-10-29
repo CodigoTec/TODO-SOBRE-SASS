@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+}
+
+.lenguajes__titulo{
+  background-color: blueviolet;
+  padding: 30px;
+  text-align: center;
+}
+
+.lenguajes__logos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.lenguajes__html{
+    background-color: rgb(151, 236, 218);
+    padding: 50px;
+
+}
+.lenguajes__html img{
+    width: 200px;
+    height:200px;
+}
+
+.lenguajes__html h3{
+    font-size: 50px;
+}
+
+
+.lenguajes__css{
+    background-color: rgb(246, 159, 159);
+    padding: 50px;
+
+}
+.lenguajes__css img{
+    width: 200px;
+    height:200px;
+}
+
+.lenguajes__css h3{
+    font-size: 50px;
+}
+
+
+.lenguajes__js{
+    background-color:rgb(236, 204, 240);
+    padding: 50px;
+
+}
+.lenguajes__js img{
+    width: 200px;
+    height:200px;
+}
+
+.lenguajes__js h3{
+    font-size: 50px;
+}
